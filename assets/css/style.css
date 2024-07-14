@@ -56,6 +56,19 @@ h3 {
 
 .active {
     border-bottom: 1px solid #424040;
+
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #F2F2F2;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 3px #A80D0E;
+    display: none;
+
 }
 
 main {
