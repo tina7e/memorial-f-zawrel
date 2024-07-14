@@ -24,19 +24,27 @@ body {
 
 header {
     background-color: #BABABA;
+    padding: 0 1rem; 
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    box-shadow: 0 2px 3px #A80D0E;
 }
 
-a {
+header a {
     text-decoration: none;
+    color: #424040;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: "Karla", sans-serif;
 }
 
 
 main {
-    background-color: #0D0D0D;
+    background-color: #424040;
     /* Make main element take up all surplus space to push footer to the bottom */
     flex: 1 0 0;
 }
