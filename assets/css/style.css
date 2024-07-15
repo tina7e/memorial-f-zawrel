@@ -29,7 +29,7 @@ header {
     position: fixed;
     z-index: 50;
     width: 100%;
-    box-shadow: 0 2px 3px #A80D0E;
+    /* box-shadow: 0 2px 3px #A80D0E; */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -47,6 +47,8 @@ h2,
 h3 {
     font-family: "Karla", sans-serif;
 }
+
+
 
 #menu {
     font-size: 110%;
@@ -68,9 +70,9 @@ nav {
     position: absolute;
     background-color: #F2F2F2;
     width: 100%;
-    left: 0;
+   left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 3px #A80D0E;
+    /* box-shadow: 0 2px 3px #A80D0E; */
     display: none;
     /* This tells nav that it should start at bottom of parent. Top of parent would be top: 0% */
     top: 100%;
@@ -90,7 +92,10 @@ nav {
 
 #nav-toggle-label {
     font-size: 2rem;
+   
+   
 }
+
 main {
     background-color: #424040;
     /* Make main element take up all surplus space to push footer to the bottom */
@@ -100,4 +105,30 @@ main {
 
 footer {
     background-color: #F2F2F2;
+}
+
+/* Media querey: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+        
+    }
+
+    #menu {
+        display: flex;
+    
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    #nav-toggle-label {
+        display: none;
+    }
+
 }
