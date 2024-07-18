@@ -29,7 +29,6 @@ header {
     position: relative;
     z-index: 50;
     width: 100%;
-    /* box-shadow: 0 2px 3px #A80D0E; */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -69,7 +68,7 @@ h3 {
 
 }
 
-/* Navbar styles with dropdown toggle */
+/* Sticky navbar styles */
 nav {
     position: sticky;
     top: 0;
@@ -78,9 +77,6 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 1px 1px #424040;
-
-
-
 }
 
 main {
@@ -90,18 +86,34 @@ main {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
     background-color: #F2F2F2;
+    color: #424040;
+}
+
+
+
+#socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+    padding-top: 8px;
+}
+
+#socials > li {
+    margin-bottom: 0.7em;
+    padding-right: 1rem;
+
 }
 
 /* Media querey: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Header */
-    /* nav {
-        display: block;
-        position: relative;
-        padding-right: 1rem;
 
-    } */
 
 }
