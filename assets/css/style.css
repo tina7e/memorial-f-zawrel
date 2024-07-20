@@ -80,13 +80,15 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 1px 1px #424040;
+    z-index: 100;
 }
 
 /* Main content styles */
 main {
     background-color: #424040;
     /* Make main element take up all surplus space to push footer to the bottom */
-    flex: 1 0 0;
+    flex: 1 0 auto;
+
 }
 
 /* .dark-bg {
@@ -100,19 +102,51 @@ main {
 }
 
 #intro {
-    display: flex;
-    flex-direction: row;
+   
 }
-#intro-text {
-    margin: 1rem;
-    flex: 1 0;
+#intro-container {
+    max-width: 424px;
+    position: relative;
+    margin: auto;
+    height: 100vh;
+    background-image: url(../images/friedrich-zawrel-1978.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center 112px;
+  
 }
 
-#intro-img > img {
-    max-width: 100%;
-    height: auto;
+
+#intro-text {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    /* height: 0; */
+    text-align:justify;
+    width: 300px;
+    height: 300px;
+    padding: 1em;
+    bottom: 10%
+}
+
+.scroll-down {
+    text-align: right;
     
 }
+  
+/* #intro-img-container {
+
+}
+
+}
+
+#intro-img {
+    right: 1rem;
+    flex: 1 1 100px;
+    z-index: 2;
+
+} */
+
 
 
 /* Footer styles */
