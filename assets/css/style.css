@@ -52,6 +52,10 @@ h3 {
     font-family: "Karla", sans-serif;
 }
 
+h2 {
+    margin: 2rem;
+}
+
 
 #menu {
     display: flex;
@@ -153,7 +157,6 @@ main {
   }
 */
 #childhood-container h2 {
-  margin: 2rem;
    flex-basis: 100%;
 
 }
