@@ -232,6 +232,7 @@ footer {
     #intro-container {
         max-width: 1023px;
         background-size: contain;
+        background-position-x: 25vw;
 
       
     }
@@ -242,6 +243,20 @@ footer {
         width: 420px;
         height: 300px;
         padding: 3rem 4rem 4rem 2rem;
+        margin-left: 20%;
     }
     
 }
+/* 
+/* Media query: desktops (1044px and up) */
+@media screen and (min-width: 1044px) {
+
+    #intro-container {
+        background-position-x: 25vw;
+    }
+
+    #intro-text {
+        margin-left: 20%;
+    }
+
+} */
