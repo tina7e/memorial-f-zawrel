@@ -154,6 +154,7 @@ main {
 #childhood-container h2 {
    flex-basis: 100%;
    color: white;
+   text-shadow: 0px 0px 5px #000000;
    
 
 }
@@ -197,6 +198,7 @@ footer {
     width: 100vw;
     background-color: #F2F2F2;
     color: #424040;
+    z-index: 99;
 }
 
 
