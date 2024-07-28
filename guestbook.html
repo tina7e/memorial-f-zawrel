@@ -54,7 +54,25 @@
 
     <!-- Main content-->
     <main>
-        Main Content
+
+        <h2>Visitor Guestbook</h2>
+
+        If you want to share your thoughts or feelings after reading about Friedrich Zawrel's story, you can do so in the form below. Entries will be added to our guestbook page after review by the page owners. 
+        <form action="guestbook.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        <br>
+
+            <label for="e-mail">E-Mail:</label>
+            <input type="e-mail" id="e-mail" name="name">
+<br>
+            <label for="message">Type your message here:</label>
+            <textarea id="message" name="message" rows="7" cols="15" ></textarea>
+
+<br>
+            <input type="submit" value="Send">
+
+        </form>
     </main>
 
     <!-- Footer -->
