@@ -140,24 +140,23 @@ main {
     width: 100vw;
     height: 100vh;
     display: flex; 
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-    background-image: url(../images/hj-marching-white.png);
+    background-image: url(../images/hitler-youth-fog-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 62px;
+    background-position: center 0px;
     box-shadow: 0 1px 1px #424040;
 
 }
 
 #childhood-container h2 {
-   flex-basis: 100%;
-   background-color: rgba(208, 208, 208, 0.6);
-    text-align:justify;
+    flex-basis: 100%;
+    text-shadow: 0 0 6px #fff;
+    background-image: linear-gradient(white, #d0d0d0);
     padding: 1rem;
-    border: 1px solid #424040;
-    z-index: 50;
+    margin: 0rem 0px 2rem;
 
 }
 
@@ -167,13 +166,16 @@ main {
     width: 300px;
     height: 300px;
     padding: 1rem;
-    border: 1px solid #424040;
-    margin: 2rem 10px;
+    margin: 0rem 10px 2rem;
+    border-radius: 5px;
     z-index: 50;
 
-}
+ }
+
+
   #childhood-text-1 {
     order: 1;
+
   }
 
 
@@ -181,17 +183,56 @@ main {
     order: 3;
 }
 
-#childhood-img {
-    border: none; 
-    order: 2;
-    z-index: 1;
+#spiegelgrund-container {
+    position: relative;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-image: url(../images/am-spiegelgrund-hallway.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 1px 1px #424040;
+
 }
 
-#childhood-img>img{
+
+
+#spiegelgrund-text {
+background-color: rgba(0, 0, 0, .6);
+text-align:justify;
+width: 300px;
+height: 400px;
+padding: 1rem;
+bottom: 20%;
+}
+
+
+  #spiegelgrund-info-text {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #424040;
+    text-align:justify;
     width: 300px;
-    
+    height: 300px;
+    padding: 1rem;
+    border: 1px solid #424040;
+    border-radius: 5px;
+    margin: 2rem 10px;
+}
+
+#spiegelhof-img>figure {
+    margin: 0 10px;
   }
-  
+
+#spiegelhof-img>figure>img {
+    display: block;
+    width: 300px;
+}
 
 /* Footer styles */
 footer {
@@ -226,17 +267,46 @@ footer {
 
     #childhood-container {
         height: 900px;
+    
+    }
+
+    #childhood-container #childhood-h2 {
+        display: flex;
+        flex-basis: 100%;
+        flex-direction: row;
+       min-width: 300px; 
+      flex-grow: 0;
+
+    
+    } 
+
+  .h2-spacer-1 {
+        flex-grow: 1;
     }
 
 
+.h2-spacer-2 {
+        flex-grow: 3;
+    }
+
+
+    #childhood-h2>h2 {
+           /* text-align:center; */
+           /* width: 300px;
+           padding: 1rem;
+           border: 1px solid #424040;
+           margin: 2rem 10px;
+           z-index: 50; */
+       }
+
     #childhood-text-1 {
         position: relative;
-        top: -180px;
+        top: -220px;
         order: 3;
     }
     #childhood-text-2 {
         position: relative;
-        top: 195px;
+        top: 0px;
         order: 1;
     }
 }
