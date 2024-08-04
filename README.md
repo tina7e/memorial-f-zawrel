@@ -3,7 +3,7 @@
 In Memory of Friedrich Zawrel is a memorial to the Nazi euthanasia survivor Friedrich Zawrel. The site aims to make his life story accessible to an English-speaking younger generations by presenting the information in an intuitive, user-friendly and media-supported way. The site has a secondary aim of making users connect Zawrel's story to current political events and ethical questions. The site addresses both, users who want to learn about Zawrel and educators who might find it useful as class material. A small catalogue of questions to discuss in class has been added to the page. 
 
 
-![Responsive Mockup](https://github.com/tina7e/memorial-f-zawrel/blob/960c855a0d4ebb2d13da11b70b13a18b131e1f77/assets/readme-images/friedrich-zawrel-mockup.jpg?raw=true)
+![Responsive Mockup](https://github.com/tina7e/memorial-f-zawrel/blob/5745c868f83f5c9407c614bb4ebab0d16f3f5111/assets/readme-images/friedrich-zawrel-mockup.jpg?raw=true)
 
 ## Features 
 
@@ -96,18 +96,18 @@ In addition, you may also use this section to discuss plans for additional featu
 - A list of image sources should be included on the resource list. 
 - The footer should have more relevant information and links.  
 - The paragraphs in the Meeting Gross section should be styled for different screen sizes to be more digestible.
-- The favicon should be changed. I liked the feeling of this image but it seems to have a specific meaning in the Portuguese context. 
+- The favicon should be changed. I liked the feeling of this image but it seems to have a specific meaning in the Portuguese or the union context.
 
 
 
 ## Testing 
+ 
+I was only able to test with devtools and on my private/office laptop, desktop and my own mobile phone.  My phone showed a bug that went undetected in devtools and that I was then able to fix. (The second textbox of the Childhood section had overlapped into the Spiegelgrund section.)
 
-I haven't been able to do a lot of testing apart from how it looks in devtools and the screens I have at hand. There was a bug on my Xiaomi phone where the second textbox of the Childhood section overlapped into the Spiegelgrund section. This hadn't been visible in devtools.  
+I'm aware that there are some layout issues still with larger screen sizes. I wish I had more time to tweak those.
 
+I'm also aware that the image quality, especially the background image on the landing page, is suboptimal. However, I felt that using the image would be justified by the historical context of the page. 
 
-
-
- The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -124,7 +124,11 @@ If this section grows too long, you may want to split it off into a separate fil
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- Accessibility
+  - No accessibility issues were found by the Lighthouse validator. 
 
+  ![Lighthouse validator](https://github.com/tina7e/memorial-f-zawrel/blob/5745c868f83f5c9407c614bb4ebab0d16f3f5111/assets/readme-images/lighthouse.jpg?raw=true)
+ 
 ### Unfixed Bugs
 
 - The guestbook form doesn't actually work since I am not able to create a MySQL database for it yet. 
@@ -144,7 +148,9 @@ The live link can be found here - https://tina7e.github.io/memorial-f-zawrel/
 
 I have started following the steps for basic page set-up from the Love Running Walkthrough. I recreated the code used to create header and footer, and to push the footer down.
 
-I have looked up bits and pieces on various pages online but I believe I haven't outright copied code, rather looked it up and adjusted it to my specific situation. 
+I have looked up bits and pieces on various pages online but I believe that mostly I haven't outright copied code, rather looked it up and adjusted it to my specific situation. 
+
+One exception to this is the code for the iframe on the Resources page. I took it from this website: https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed
 
 
 ### Content 
