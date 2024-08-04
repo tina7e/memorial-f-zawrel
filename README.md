@@ -93,10 +93,10 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - To complete the story, two more sections of the biography are necessary. Of these, the last one would break up the black-grey-white scheme and introduce some photographs in colour. 
 - The resources list should also have a catalogue of questions and current developments in society and politics that an educator might want to use to discuss with their students on the background of Zawrel's experiences. 
-- The footer should have more relevant information and links. 
-- A small section that lists image sources. 
+- A list of image sources should be included on the resource list. 
+- The footer should have more relevant information and links.  
 - The paragraphs in the Meeting Gross section should be styled for different screen sizes to be more digestible.
-- The favicon should be changed to a more suitable one. 
+- The favicon should be changed. I liked the feeling of this image but it seems to have a specific meaning in the Portuguese context. 
 
 
 
@@ -128,13 +128,9 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Unfixed Bugs
 
 - The guestbook form doesn't actually work since I am not able to create a MySQL database for it yet. 
-- 
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -150,31 +146,28 @@ I have started following the steps for basic page set-up from the Love Running W
 
 I have looked up bits and pieces on various pages online but I believe I haven't outright copied code, rather looked it up and adjusted it to my specific situation. 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
-- The content was taken from 
+- The text content was derived and translated from https://de.wikipedia.org/wiki/Friedrich_Zawrel and https://www.falter.at/zeitung/20240528/eine-bruecke-fuer-friedrich-zawrel
+
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
 - The image for the favicon is in the public domain. It was downloaded from this page: https://freesvg.org/antifascist-carnation
 
-- The following images are stills from the documentary "Spiegelgrund" (Austria, 2000): 
+- The following images are screenshots from the documentary "Spiegelgrund" (Austria, 2000): 
 am-spiegelgrund-hallway.jpg
 artikel-kurier-1978-12-17.jpg
 friedrich-zawrel-1978-zeitung.jpg
 friedrich-zawrel-1978.jpg
 
-- The image "hitler-youth-fog-bg.png" is a still from original footage film "Hitler Youth in Salzburg, 1938", copyright filmmuseum.at, found here: https://efilms.at/film_player?movieID=68&movieSig=EF-NS_067_OeFM
+- The image "hitler-youth-fog-bg.png" is a screenshot from original footage film "Hitler Youth in Salzburg, 1938", copyright filmmuseum.at, found here: https://efilms.at/film_player?movieID=68&movieSig=EF-NS_067_OeFM
 
 - The image "am-steinhof-areal-1932.jpg" is in the public domain. It was found here: https://www.sn.at/wiki/Datei:Am_Spiegelgrund_Wien.jpg
 
 
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
 ## Other General Project Advice
 
