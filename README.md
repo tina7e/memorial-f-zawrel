@@ -2,15 +2,10 @@
 
 In Memory of Friedrich Zawrel is a memorial to the Nazi euthanasia survivor Friedrich Zawrel. The site aims to make his life story accessible to an English-speaking younger generations by presenting the information in an intuitive, user-friendly and media-supported way. The site has a secondary aim of making users connect Zawrel's story to current political events and ethical questions. The site addresses both, users who want to learn about Zawrel and educators who might find it useful as class material. A small catalogue of questions to discuss in class has been added to the page. 
 
-<!-- In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.  -->
-
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](assets/)
 
 ## Features 
-<!-- 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. -->
 
 ### Existing Features
 
@@ -107,7 +102,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
-I haven't been able to do a lot of testing apart from how it looks in devtools and the screens I have at hand. There is a bug on my Xiaomi phone where the second textbox of the Childhood section overlaps into the Spiegelgrund section. I tried fixing it but it didn't work. 
+I haven't been able to do a lot of testing apart from how it looks in devtools and the screens I have at hand. There was a bug on my Xiaomi phone where the second textbox of the Childhood section overlapped into the Spiegelgrund section. This hadn't been visible in devtools.  
 
 
 
