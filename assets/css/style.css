@@ -268,8 +268,8 @@ figcaption {
     padding-left: 1rem;
 }
 
-#guestbook-form a {
-    color: #F2F2F2;
+.violet-link {
+    color: violet;
 }
 
 #form {

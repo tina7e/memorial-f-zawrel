@@ -104,9 +104,15 @@ In addition, you may also use this section to discuss plans for additional featu
 - The favicon should be changed to a more suitable one. 
 
 
+
 ## Testing 
 
+I haven't been able to do a lot of testing apart from how it looks in devtools and the screens I have at hand. There is a bug on my Xiaomi phone where the second textbox of the Childhood section overlaps into the Spiegelgrund section. I tried fixing it but it didn't work. 
 
+
+
+
+ The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -126,6 +132,9 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
+- The guestbook form doesn't actually work since I am not able to create a MySQL database for it yet. 
+- 
+
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
 ## Deployment
@@ -137,19 +146,20 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://tina7e.github.io/memorial-f-zawrel/
 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+I have started following the steps for basic page set-up from the Love Running Walkthrough. I recreated the code used to create header and footer, and to push the footer down.
+
+I have looked up bits and pieces on various pages online but I believe I haven't outright copied code, rather looked it up and adjusted it to my specific situation. 
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The content was taken from 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
