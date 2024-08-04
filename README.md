@@ -3,7 +3,7 @@
 In Memory of Friedrich Zawrel is a memorial to the Nazi euthanasia survivor Friedrich Zawrel. The site aims to make his life story accessible to an English-speaking younger generations by presenting the information in an intuitive, user-friendly and media-supported way. The site has a secondary aim of making users connect Zawrel's story to current political events and ethical questions. The site addresses both, users who want to learn about Zawrel and educators who might find it useful as class material. A small catalogue of questions to discuss in class has been added to the page. 
 
 
-![Responsive Mockup](assets/)
+![Responsive Mockup](https://github.com/tina7e/memorial-f-zawrel/blob/960c855a0d4ebb2d13da11b70b13a18b131e1f77/assets/readme-images/friedrich-zawrel-mockup.jpg?raw=true)
 
 ## Features 
 
@@ -11,7 +11,7 @@ In Memory of Friedrich Zawrel is a memorial to the Nazi euthanasia survivor Frie
 
 - __Custom Favicon__
 
-The website has a custom favicon that is a picture of as sunflower. 
+The website has a custom favicon. 
 
 - __Navigation Bar__
 
@@ -159,8 +159,19 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The image for the favicon is in the public domain. It was downloaded from this page: https://freesvg.org/antifascist-carnation
+
+- The following images are stills from the documentary "Spiegelgrund" (Austria, 2000): 
+am-spiegelgrund-hallway.jpg
+artikel-kurier-1978-12-17.jpg
+friedrich-zawrel-1978-zeitung.jpg
+friedrich-zawrel-1978.jpg
+
+- The image "hitler-youth-fog-bg.png" is a still from original footage film "Hitler Youth in Salzburg, 1938", copyright filmmuseum.at, found here: https://efilms.at/film_player?movieID=68&movieSig=EF-NS_067_OeFM
+
+- The image "am-steinhof-areal-1932.jpg" is in the public domain. It was found here: https://www.sn.at/wiki/Datei:Am_Spiegelgrund_Wien.jpg
+
+
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
