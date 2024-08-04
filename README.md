@@ -13,6 +13,8 @@ In Memory of Friedrich Zawrel is a memorial to the Nazi euthanasia survivor Frie
 
 The website has a custom favicon. 
 
+
+
 - __Navigation Bar__
 
  A full responsive navigation bar is featured on all pages. It includes links to the home page, resources page and guestbook page. 
