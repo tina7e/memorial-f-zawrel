@@ -13,7 +13,7 @@ In Memory of Friedrich Zawrel is a memorial to the Nazi euthanasia survivor Frie
 
 The website has a custom favicon. 
 
-
+![Favicon](https://github.com/tina7e/memorial-f-zawrel/commit/0ce5f294d25aaf577cba43f6fd1d4bd8f05525da#diff-94a29539a33142a6989aefecd8f33f4f413a1092367dce6d4e2c0ca5ef6184c1?raw=true)
 
 - __Navigation Bar__
 
@@ -24,10 +24,10 @@ The website has a custom favicon.
  The sticky nav bar separates from the page logo when scrolling in order to save space.
 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Header and Nav Bar](https://github.com/tina7e/memorial-f-zawrel/commit/0ce5f294d25aaf577cba43f6fd1d4bd8f05525da#diff-c30af4a95577cbbb8e5f936faa2e21cf64a9b0a30b1ee146f20d2b3fbe0becfa?raw=true)
 
 
-- __The intro section__
+- __The Intro Section__
 
 The intro section equips the user with a quick introduction of the site's contents. It explains who Friedrich Zawrel was. It is accompanied by a background image of an old blurry newspaper article. 
 
@@ -36,7 +36,7 @@ In the smaller size screens we only see Zawrel's image from the article, but in 
 The introductory text scrolls over the fixed image on a semitransparent black background. This contrasts the grainy picture with a nifty, modern sleek look and adds visual interest. The text box is fitted with a little down arrow to signal the users that there is more scrollable content below.
 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Intro Section](https://github.com/tina7e/memorial-f-zawrel/commit/0ce5f294d25aaf577cba43f6fd1d4bd8f05525da#diff-8392560d940067dbde95c0112f139a20c7361896f1763fca97e4758d6fc3a348?raw=true)
 
 - __Childhood section__
 
@@ -44,7 +44,7 @@ The introductory text scrolls over the fixed image on a semitransparent black ba
   
   It lets the user enter the narrative of Zawrel's life. The text is kept short and on point in order to keep readers interested. It is split up over two square divs to reduce information overload and make it visually appealing. The color scheme is reverted and the div backgrounds are given round edges. The background image to the section is a grainy video still of Hitler Youth marching in Austria. It is not fixed but scrolls with the text. This again, adds visual interest. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Childhood section](https://github.com/tina7e/memorial-f-zawrel/commit/0ce5f294d25aaf577cba43f6fd1d4bd8f05525da#diff-e2c2d0656c20ac5df6844f1b1898e8c5329768be4ad7351ad84c43fcf2b9f09a?raw=true)
 
 - __Am Spiegelgrund section__
 
@@ -52,19 +52,36 @@ The introductory text scrolls over the fixed image on a semitransparent black ba
 
   - The main text is accompanied by an aside, visually separated in a div with a dark grey background. The aside textbox is similar to the ones in the childhood section. The text delivers facts about the clinic "Am Spiegelgrund." It is accompanied by an old areal photograph. The photograph has a caption.  
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Spiegelgrund section](https://github.com/tina7e/memorial-f-zawrel/commit/0ce5f294d25aaf577cba43f6fd1d4bd8f05525da#diff-e4eaac84f14c350a7a93802f59b1c31b7313247669b2bd5cce55cc3dfc83c89d?raw=true)
+
 
 - __Meeting Gross section__
 
   - This section is the most text-heavy and the most climactic part of the narrative. It is kept simple, separated in paragraphs, white text on a dark background. The textbox shares features from both previous textbox styles. 
 
 
-  __Guestbook entry form__
+  -__Guestbook entry form__
 
   - At the end of the narrative, users are invited to share their thoughts on Friedrich Zawrel's story.
   - They can do so via a simple form that features an optional text input field for their name, an obligatory e-mail input field and an obligatory textarray field for the message. 
 
-__The Footer__
+  ![Guestbook entry form](https://github.com/tina7e/memorial-f-zawrel/commit/0ce5f294d25aaf577cba43f6fd1d4bd8f05525da#diff-f683fabbea513b2dc4ed5b95523befa1ee991ef677fc4cb6a6beb20b0d31521f?raw=true)
+
+  -__The Guestbook page__
+
+  _A simple table that shows the messages users have entered. 
+
+  ![Guestbook page](https://github.com/tina7e/memorial-f-zawrel/commit/0ce5f294d25aaf577cba43f6fd1d4bd8f05525da#diff-8bac4d4a354bdb39aff66ac645b32314017053ecdf0f824aa6999321000e4380?raw=true)
+
+ - __The Resources page__
+
+  - A page with further resources. In its current form it hosts an embedded video with an interview with Zawrel and a few links to informative pages.
+
+  ![Resources page](https://github.com/tina7e/memorial-f-zawrel/commit/0ce5f294d25aaf577cba43f6fd1d4bd8f05525da#diff-3fa5c0a76722a60ef82d4e1a93027f4104d78ae3cc9b6d8c2dc9b66f8a1e2005?raw=true)
+
+
+
+-__The Footer__
 
 - The footer is fixed to the bottom of the page and visible at all times. It includes links to a few social media sites that will open in a new tab. 
 
@@ -73,23 +90,9 @@ __The Footer__
 
 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/tina7e/memorial-f-zawrel/commit/0ce5f294d25aaf577cba43f6fd1d4bd8f05525da#diff-00b8a270b3fde5ef97cce7fa87cbd717c51a85c660bf252216f62143c526b5b4?raw=true)
 
-- __The Guestbook page__
 
-  - The guestbook page consist of a simple table that lists messages left, optionally with the sender's name. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Resources page__
-
-  - This page features relevant resources that the users can peruse to further their knowledge about Friedrich Zawrel and the things he experienced. It includes an embedded video of an interview with Zawrel (in German), additional photos and a list of thematically sorted links that might be of interest to the user.
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
@@ -123,13 +126,14 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftina7e.github.io%2Fmemorial-f-zawrel%2Findex.html)
+
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftina7e.github.io%2Fmemorial-f-zawrel%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Accessibility
   - No accessibility issues were found by the Lighthouse validator. 
 
-  ![Lighthouse validator](https://github.com/tina7e/memorial-f-zawrel/blob/5745c868f83f5c9407c614bb4ebab0d16f3f5111/assets/readme-images/lighthouse.jpg?raw=true)
+  ![Lighthouse validator](https://github.com/tina7e/memorial-f-zawrel/commit/0ce5f294d25aaf577cba43f6fd1d4bd8f05525da#diff-ec3c7d8a714b3ef9be0626c566e7eb704506ebf61238dd809b55093fdd8ba6ec?raw=true)
  
 ### Unfixed Bugs
 
@@ -152,7 +156,7 @@ I have started following the steps for basic page set-up from the Love Running W
 
 I have looked up bits and pieces on various pages online but I believe that mostly I haven't outright copied code, rather looked it up and adjusted it to my specific situation. 
 
-One exception to this is the code for the iframe on the Resources page. I took it from this website: https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed
+One exception to this is the code for the iframe on the Resources page. I took most of it from this website: https://www.h3xed.com/web-development/how-to-make-a-responsive-100-width-youtube-iframe-embed. And then adjusted it a little.
 
 
 ### Content 
@@ -177,19 +181,3 @@ friedrich-zawrel-1978.jpg
 
 
 
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
