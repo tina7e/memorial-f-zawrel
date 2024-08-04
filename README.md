@@ -9,56 +9,84 @@ For example; Love Running is a site that hopes to help keep people motivated to 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+<!-- 
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things. -->
 
 ### Existing Features
 
+- __Custom Favicon__
+
+The website has a custom favicon that is a picture of as sunflower. 
+
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+ A full responsive navigation bar is featured on all pages. It includes links to the home page, resources page and guestbook page. 
+ 
+ The nav bar is sticky so that users can easily access navigation even though the page scrolls down quite a bit. 
+ 
+ The sticky nav bar separates from the page logo when scrolling in order to save space.
+
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+- __The intro section__
+
+The intro section equips the user with a quick introduction of the site's contents. It explains who Friedrich Zawrel was. It is accompanied by a background image of an old blurry newspaper article. 
+
+In the smaller size screens we only see Zawrel's image from the article, but in larger size screens, as the image quality deteriorates beyond usable, part of the article text is also shown. The image quality is still not very good but I think the context of it being an image of an old newspaper, and the page being about a historical figure, justifies the image quality. 
+
+The introductory text scrolls over the fixed image on a semitransparent black background. This contrasts the grainy picture with a nifty, modern sleek look and adds visual interest. The text box is fitted with a little down arrow to signal the users that there is more scrollable content below.
+
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __Childhood section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The childhood section is the first of the three (planned: 5) biographical sections that make up the meat of the site. 
+  
+  It lets the user enter the narrative of Zawrel's life. The text is kept short and on point in order to keep readers interested. It is split up over two square divs to reduce information overload and make it visually appealing. The color scheme is reverted and the div backgrounds are given round edges. The background image to the section is a grainy video still of Hitler Youth marching in Austria. It is not fixed but scrolls with the text. This again, adds visual interest. 
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
+- __Am Spiegelgrund section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section narrates briefly Zawrel's experiences in the clinic Am Spiegelgrund. It is styled with another fixed background, which, different from the intro picture, now fills the entire screen. The textbox has the same colour scheme and background style as the intro section's textbox. 
+
+  - The main text is accompanied by an aside, visually separated in a div with a dark grey background. The aside textbox is similar to the ones in the childhood section. The text delivers facts about the clinic "Am Spiegelgrund." It is accompanied by an old areal photograph. The photograph has a caption.  
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
-- __The Footer__ 
+- __Meeting Gross section__
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - This section is the most text-heavy and the most climactic part of the narrative. It is kept simple, separated in paragraphs, white text on a dark background. The textbox shares features from both previous textbox styles. 
+
+
+  __Guestbook entry form__
+
+  - At the end of the narrative, users are invited to share their thoughts on Friedrich Zawrel's story.
+  - They can do so via a simple form that features an optional text input field for their name, an obligatory e-mail input field and an obligatory textarray field for the message. 
+
+__The Footer__
+
+- The footer is fixed to the bottom of the page and visible at all times. It includes links to a few social media sites that will open in a new tab. 
+
+
+
+
+
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+- __The Guestbook page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The guestbook page consist of a simple table that lists messages left, optionally with the sender's name. 
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-- __The Sign Up Page__
+- __The Resources page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page features relevant resources that the users can peruse to further their knowledge about Friedrich Zawrel and the things he experienced. It includes an embedded video of an interview with Zawrel (in German), additional photos and a list of thematically sorted links that might be of interest to the user.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
@@ -68,9 +96,17 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+- To complete the story, two more sections of the biography are necessary. Of these, the last one would break up the black-grey-white scheme and introduce some photographs in colour. 
+- The resources list should also have a catalogue of questions and current developments in society and politics that an educator might want to use to discuss with their students on the background of Zawrel's experiences. 
+- The footer should have more relevant information and links. 
+- A small section that lists image sources. 
+- The paragraphs in the Meeting Gross section should be styled for different screen sizes to be more digestible.
+- The favicon should be changed to a more suitable one. 
+
 
 ## Testing 
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 

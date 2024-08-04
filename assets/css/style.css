@@ -125,7 +125,8 @@ main {
 #childhood-container {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
+    min-height: 776px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
